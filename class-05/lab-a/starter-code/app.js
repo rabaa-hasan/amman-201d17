@@ -9,6 +9,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
+    
     let result = a + b ;
     let statment = 'The sum of '+ a + ' and ' + b +' is ' + result  + '.';
     return[result,statment];
@@ -59,6 +60,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 
 function sumAndMultiply(a, b, c) { //eslint-disable-line
+    
     let result = sum(a,b);
     let result2= sum(result[0],c); 
    // console.log (result2[0]);
@@ -91,6 +93,7 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
+  
     let result = sum(testArray[0],testArray[1]);
     let result2 = sum(result[0],testArray[2]);
     //console.log(result2[0]);
