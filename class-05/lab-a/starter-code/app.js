@@ -15,7 +15,11 @@ function sum(a, b) { //eslint-disable-line
 }
 
 // Here is the test for sum(); uncomment it to run it
+// <<<<<<< problem3
 testSum(4, 7);
+// =======
+//  testSum(4, 7);
+// >>>>>>> main
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -31,7 +35,9 @@ Test this function by hand in the console to get it working, and when you think 
 function multiply(a, b) { //eslint-disable-line
     let result = a * b;
     let statment = 'The product of ' + a + ' and ' + b + ' is ' + result + '.';
+
     return[result,statment];
+
 }
 
 // Here is the test for multiply(); uncomment it to run it
